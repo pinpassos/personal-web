@@ -1,0 +1,14 @@
+.habilities-section {
+    background-color: rgb(248,249,250);
+    padding: 80px 0;
+}
+
+.habilities-section-content {
+    padding: 15px 20%;
+}
+
+.habilities-section-content-title {
+    color: #6c757d;
+    font-size: 12pt;
+    text-transform: uppercase;
+}

@@ -1,0 +1,53 @@
+.contact-me-section {
+    padding: 80px 0;
+    background-color: #1a222a;
+    color: white;
+}
+
+.contact-me-section-content {
+    padding: 15px 2%;
+}
+
+.contact-me-section-contact {
+    font-size: 14pt;
+}
+
+.contact-me-scetion-fell-free {
+    font-size: 28pt;
+}
+.contact-me-section-content-contacts > p {
+    font-size: 14pt;
+    line-height: 1.8;
+}
+
+.contact-me-section-content-form-contact {
+    width: 100%;
+}
+
+.contact-me-section-content-form-contact textarea {
+    resize: none;
+}
+
+.contact-me-section-content-getintouch {
+    font-weight: 700;
+}
+
+.contact-me-form-button-div {
+    display: flex;
+}
+
+.contact-me-form-button {
+    width: 100%;
+    background-color: #6164d2;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #1a222a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-me-form-button:hover {
+    color: white;
+    border: 1px solid #ffffff;
+}

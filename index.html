@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passos - Personal portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap Css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Personal Css -->
+    <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+
+<body>
+    <!-- HEADER NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top ">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse navbar-container justify-content-around p-2"
+                    id="navbar-collapse-toggle">
+
+                    <div class="navbar-brand-div">
+                        <a class="navbar-brand h1" href="#">Passos</a>
+                    </div>
+
+                    <div class="navbar-nav navbar-navigation-itens">
+                        <div class="nav-item">
+                            <a href="#main-section" class="nav-link active">Home</a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#about-section" class="nav-link">About</a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#habilities-section" class="nav-link">Habilities</a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#resume-section" class="nav-link">Resume</a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#contact-section" class="nav-link">Contact</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar-nav navbar-navigation-social">
+                        <div class="nav-item">
+                            <a href="https://www.linkedin.com/in/matheus-ppassos/" target=”_blank” class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                </svg></a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="https://www.github.com/pinpassos/" target=”_blank” class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                                </svg></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="navbar-toggler-div">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-collapse-toggle" aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- INTRODUCTION MAIN SECTION -->
+    <section id="main-section" class="introduction-main-section d-flex justify-content-center align-items-center">
+        <div class="row introduction-main-div">
+            <div class="col introduction-main-div-info d-flex flex-column justify-content-center align-items-start">
+
+                <h3>Hi, i'm a software</h3>
+                <p>Developer</p>
+
+                <figcaption class="blockquote-footer">
+                    <span class="blockquote-footer-text">Just a person who solves problems <cite
+                            title="Source Title">with
+                            code</cite></span>
+                </figcaption>
+
+                <div class="introduction-main-div-button d-flex flex-row">
+                    <div class="buttons">
+                        <a href="#about-section" class="btn">Get a trip</a>
+                    </div>
+                    <div class="buttons">
+                        <a href="#contact-section" class="btn">Contact me</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about-section" class="common-section container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="common-text-section">About me</h3>
+                <h2 class="common-title-section">Know me More</h2>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-center about-me-section-content">
+            <div class="col mt-5">
+                <h3 class="about-me-section-introduction-title mb-3">Hi, I'm <span
+                        class="about-me-section-introduction-title-name">Matheus Passos</span></h3>
+                <p class="about-me-section-introduction-title-description">
+                    I'm passionate about technology and how it makes us see the world from another perspective.
+                    <br>
+                    Over the years I've learned that having analytical thinking helps us understand how to use the best
+                    solutions to solve problems with code.
+                </p>
+            </div>
+            <div class="col mt-5 text-center d-flex flex-column align-items-center">
+                <p class="about-me-section-years-of-experience-number"><span
+                        class="d-flex flex-row justify-content-center align-items-center">3</span></p>
+                <p class="about-me-section-years-of-experience-text">Years of <span
+                        class="years-of-experience-text-span">Experience</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILITIES -->
+    <section id="habilities-section" class="habilities-section container-fluid text-center">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="common-text-section">Habilities</h3>
+                <h2 class="common-title-section mb-5">How can i help in your project</h2>
+            </div>
+        </div>
+
+        <div class="row m-2 habilities-section-content">
+            <div class="col">
+                <img src="./assets/images/html.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">html5</h3>
+            </div>
+            <div class="col"><img src="./assets/images/css.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">css3</h3>
+            </div>
+            <div class="col"><img src="./assets/images/javascript.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">javascript</h3>
+            </div>
+        </div>
+
+        <div class="row m-2 habilities-section-content">
+            <div class="col">
+                <img src="./assets/images/bootstrap.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">bootstrap</h3>
+            </div>
+            <div class="col"><img src="./assets/images/sass.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">sass</h3>
+            </div>
+            <div class="col"><img src="./assets/images/vue.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">vue.Js</h3>
+            </div>
+        </div>
+
+        <div class="row m-2 habilities-section-content">
+            <div class="col">
+                <img src="./assets/images/python.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">python</h3>
+            </div>
+            <div class="col"><img src="./assets/images/django.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">django</h3>
+            </div>
+            <div class="col"><img src="./assets/images/postgresql.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">postgresql</h3>
+            </div>
+        </div>
+
+        <div class="row m-2 habilities-section-content">
+            <div class="col"><img src="./assets/images/git.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">Git</h3>
+            </div>
+            <div class="col"><img src="./assets/images/linux.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">Linux</h3>
+            </div>
+            <div class="col"><img src="./assets/images/agile.png" alt="">
+                <h3 class="mt-2 habilities-section-content-title">Agile</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume-section" class="common-section container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="common-text-section">Resume</h3>
+                <h2 class="common-title-section">A summary of my resume</h2>
+            </div>
+        </div>
+
+        <div class="row m-2 resume-section-content">
+            <div class="col resume-section-content-education text-end">
+                <h2 class="resume-section-content-education-title">Education</h2>
+                <div class="border-end border-4 p-3">
+                    <h3>Bachelor in information systems</h3>
+                    <h4>Universidade Estácio de Sá / 2017 - 2021</h4>
+                </div>
+            </div>
+            <div class="col resume-section-content-education">
+                <h2 class="pl-4">Experiences</h2>
+                <div class="border-start border-4 p-3">
+                    <h3>Full Stack - Software developer</h3>
+                    <h4>Join Tecnologia & Design / 2022 - Current</h4>
+                    <p>My main responsibilities are the development of web applications using the
+                        Python technologies with the Django framework, Django REST framework for creating APIs,
+                        JavaScript on the front-end and PostgreSQL as a database;
+                        Currently working with Scrum methodology, Jira for monitoring projects, Confluence for preparing
+                        and consulting documents to help both the team and future collaborators.</p>
+                </div>
+                <div class="border-start border-4 p-3">
+                    <h3>Back-end - Software developer</h3>
+                    <h4>Roda Conveniência / 2021 - 2022</h4>
+                    <p>
+                        Systems development using python, django, django rest framework;
+                        Implementation of new features and bug fixes;
+                        Conducting unit tests;
+                        Preparation of documentation, flowcharts, class diagrams and database modeling;
+                        Planning of "sprint planning" with the development team;</p>
+                </div>
+                <div class="border-start border-4 p-3">
+                    <h3>Full-stack - Software developer</h3>
+                    <h4>Supremo Conselho da Maçonaria - REAA / 2021 - 2021</h4>
+                    <p>
+                        Development of internal systems using php, html, css, javascript, materialize and mysql;
+                        Bug fixes in previously implemented systems;
+                        Website development where I use html, css, javascript and bootstrap;
+                        Meetings with managers for aligned ideas regarding new technological solutions;
+                        Development of scripts in python to automate tasks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-section" class="contact-me-section container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="common-text-section">Contact</h3>
+                <h2 class="common-title-section">Fell free to contact me</h2>
+            </div>
+        </div>
+
+        <div class="row m-5 contact-me-section-content">
+            <div class="col text-center">
+                <h2 class="contact-me-section-content-getintouch mb-4">Let's get in touch</h2>
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center contact-me-section-content-contacts">
+                    <p>Rio de Janeiro / Brazil</p><i></i>
+                    <p>pinheiropassosm@gmail.com</p>
+                    <p>+55 21 9 9662-1120</p>
+                </div>
+            </div>
+            <div class="col text-center">
+                <h2 class="contact-me-section-content-getintouch mb-4">Send me a mail</h2>
+                <form id="contact-me-form" method="post" class="contact-me-section-content-form-contact">
+                    <div class="form-group m-2">
+                        <input type="text" class="form-control" placeholder="Name" name="Name" required>
+                    </div>
+                    <div class="form-group m-2">
+                        <input type="email" class="form-control" placeholder="Email" name="Email" required>
+                    </div>
+                    <div class="form-group m-2">
+                        <textarea type="email" class="form-control" placeholder="Message" name="Message" rows="8"
+                            required></textarea>
+                    </div>
+                    <div class="form-group m-2 contact-me-form-button-div">
+                        <input class="contact-me-form-button btn" type="submit" form="contact-me-form">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="p-5">
+        <div class="row">
+            <h6 class="text-center">Developed by me with love&nbsp
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-suit-heart-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z" />
+                </svg>
+            </h6>
+        </div>
+    </footer>
+
+    <!-- TOASTS -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToastSuccess" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-success text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                </svg>
+                <strong class="me-auto">&nbspSuccess</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Your email has been sent successfully.<br>
+                I'll return your message shortly.!
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToastError" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-danger text-light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-send-dash" viewBox="0 0 16 16">
+                    <path
+                        d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855a.75.75 0 0 0-.124 1.329l4.995 3.178 1.531 2.406a.5.5 0 0 0 .844-.536L6.637 10.07l7.494-7.494-1.895 4.738a.5.5 0 1 0 .928.372l2.8-7Zm-2.54 1.183L5.93 9.363 1.591 6.602l11.833-4.733Z" />
+                    <path
+                        d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-5.5 0a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Z" />
+                </svg>
+                <strong class="me-auto">&nbspError</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                    aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                An error ocurred.<br>
+                Verify if all form data has been fill up correctly!
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Email sender -->
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

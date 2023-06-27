@@ -1,0 +1,12 @@
+.resume-section-content {
+    padding: 15px 10%;
+}
+
+.resume-section-content-education h2 {
+    color: #6c757d;
+}
+
+.resume-section-content-education p {
+    font-size: 14pt;
+    line-height: 1.8;
+}

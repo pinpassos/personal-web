@@ -1,0 +1,48 @@
+.about-me-section-content {
+    height: 100%;
+    padding: 0 10vw;
+}
+
+.about-me-section-introduction-title {
+    font-size: 28pt;
+    font-weight: 300;
+}
+
+.about-me-section-introduction-title-name {
+    font-weight: 700;
+    border-bottom: 3px solid #6164d2;
+    padding-bottom: 2px;
+}
+
+.about-me-section-introduction-title-description {
+    font-size: 14pt;
+    line-height: 1.8;
+}
+
+.about-me-section-years-of-experience-number {
+    font-weight: 800;
+    color: #fff;
+}
+
+.about-me-section-years-of-experience-number span{
+    width: 16vh;
+    height: 16vh;
+    border-radius: 50%;
+    background-color: #6164d2;
+}
+
+.about-me-section-years-of-experience-text {
+    font-weight: 300;
+}
+
+.about-me-section-years-of-experience-text-span {
+    font-weight: 700;
+}
+
+.about-me-section-years-of-experience-number {
+    font-size: 60pt;
+}
+
+.about-me-section-years-of-experience-text {
+    font-size: 28pt;
+}

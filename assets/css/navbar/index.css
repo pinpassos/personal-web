@@ -1,0 +1,22 @@
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-container {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar-brand-div > .h1 {
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.navbar-navigation-itens {
+    column-gap: 30px;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid #6164d2 ;
+    line-height: 20px;
+}
